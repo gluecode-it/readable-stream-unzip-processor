@@ -1,7 +1,7 @@
 {
 	"name": "@gluecode-it/readable-stream-unzip-processor",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Takes one readable stream of a zip file and create multiple write streams with the plain unzipped files",
 	"main": "dist/index.js",
 	"scripts": {
 		"test": "jest --coverage",
