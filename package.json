@@ -14,6 +14,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"@gluecode-it/readable-to-writeables-stream-processor": "^1.0.1",
+		"auto-approve-action": "github:hmarr/auto-approve-action",
 		"unzipper": "^0.10.11"
 	},
 	"devDependencies": {
