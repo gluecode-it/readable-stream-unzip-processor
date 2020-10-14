@@ -1,0 +1,11 @@
+- match:
+    dependency_type: developement
+    update_type: "semver:minor"
+- match:
+    dependency_name: gluecodeit\/.+
+    dependency_type: all
+    update_type: "security:minor"
+- match:
+    # and development dependencies can have a minor update, too
+    dependency_type: development
+    update_type: "semver:minor"
