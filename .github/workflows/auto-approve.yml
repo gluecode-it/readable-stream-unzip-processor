@@ -11,6 +11,12 @@ jobs:
       if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
+  automerge:
+    needs: autoapprove
+    runs-on: ubuntu-latest
+    steps:
     - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
-          github-token: ${{ secrets.mytoken }}    
+          target: patch
+          github-token: ${{ secrets.mytoken }}
+             
