@@ -2,17 +2,11 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     open-pull-requests-limit: 0
-    directory: "/"
-    schedule:
-      interval: "daily"
-    allow:
-      - dependency-type: "development"
-  - package-ecosystem: "npm"
-    open-pull-requests-limit: 0
     versioning-strategy: increase
     directory: "/"
     schedule:
       interval: "daily"
     allow:
-      - dependency-name: "gluecode-it"
+      - dependency-type: "development"
+      - dependency-name: "gluecode-it*"
         dependency-type: "production"
