@@ -8,5 +8,5 @@ updates:
       interval: 'daily'
     allow:
       - dependency-type: 'development'
-      - dependency-name: 'gluecode-it*'
+      - dependency-name: '@gluecode-it*'
         dependency-type: 'production'
