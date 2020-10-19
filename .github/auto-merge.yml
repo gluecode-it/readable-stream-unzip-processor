@@ -1,5 +1,5 @@
 - match:
-    dependency_name: gluecodeit\/.+
+    dependency_name: gluecode-it\/.+
     dependency_type: all
     update_type: "security:minor"
 - match:
