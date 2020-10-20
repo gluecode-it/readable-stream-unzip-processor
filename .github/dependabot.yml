@@ -5,8 +5,8 @@ updates:
     versioning-strategy: increase
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: 'daily'
     allow:
-      - dependency-type: "development"
-      - dependency-name: "gluecode-it*"
-        dependency-type: "production"
+      - dependency-type: 'development'
+      - dependency-name: '@gluecode-it*'
+        dependency-type: 'production'
