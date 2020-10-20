@@ -1,9 +1,9 @@
 version: 2
 updates:
-  - package-ecosystem: 'npm'
+  - package-ecosystem: "npm"
     open-pull-requests-limit: 999
     versioning-strategy: increase
-    directory: '/'
+    directory: "/"
     schedule:
       interval: 'daily'
     allow:
