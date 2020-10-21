@@ -13,10 +13,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: npmrc
-        run: >-
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PAT }}" >>
-          .npmrc
       - name: Install dependencies
         run: npm install
         env:
@@ -24,3 +20,6 @@ jobs:
           NPM_TOKEN: '${{ secrets.GH_PAT }}'
       - name: Run Jest
         run: npm test
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          github-token: ${{ secrets.GH_PAT }}
