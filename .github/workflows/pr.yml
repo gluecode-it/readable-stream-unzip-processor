@@ -22,4 +22,5 @@ jobs:
         run: npm test
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
+          target: minor
           github-token: ${{ secrets.GH_PAT }}
