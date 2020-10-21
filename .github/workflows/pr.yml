@@ -23,6 +23,4 @@ jobs:
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           target: minor
-          command: merge
-          approve: true
           github-token: ${{ secrets.GH_PAT }}
