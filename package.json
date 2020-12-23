@@ -13,7 +13,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@gluecode-it/readable-to-writeables-stream-processor": "1.0.11",
+		"@gluecode-it/readable-to-writeables-stream-processor": "1.0.12",
 		"auto-approve-action": "github:hmarr/auto-approve-action",
 		"unzipper": "^0.10.11"
 	},
